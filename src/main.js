@@ -19,3 +19,5 @@ function isFibonacci(num) {
     console.log("Sum: " + sum);
 }
 isFibonacci(15);
+
+
