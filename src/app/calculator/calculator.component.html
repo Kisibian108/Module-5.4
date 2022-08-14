@@ -1,0 +1,9 @@
+<input type="number" [(ngModel)]="a">
+<input type="number" [(ngModel)]="b">
+
+<button value="+" (click)="calculator('+')">+</button>
+<button value="-" (click)="calculator('-')">-</button>
+<button value="*" (click)="calculator('*')">*</button>
+<button value="/" (click)="calculator('/')">/</button>
+<p>{{error}}</p>
+<p>Result: {{total}}</p>
