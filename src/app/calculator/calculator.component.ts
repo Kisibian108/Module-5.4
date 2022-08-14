@@ -13,7 +13,6 @@ export class CalculatorComponent implements OnInit {
   error = '';
   constructor() {
   }
-
   ngOnInit(): void {
   }
   calculator(ope: string) {
